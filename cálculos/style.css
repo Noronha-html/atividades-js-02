@@ -51,6 +51,8 @@ body{
     height: 100%;
     border-radius: 8px;
     border: none;
+    text-align: center;
+    font-weight: 600;
 }
 
 .wrapper .buttons{
@@ -63,7 +65,7 @@ body{
 }
 
 .wrapper .buttons button{
-    width: 20%;
+    width: 30%;
     height: 100%;
     border-radius: 7px;
     border: 1px solid black;

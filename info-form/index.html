@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="campo">
+            <h1>Cadastro</h1>
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" class="inputs" placeholder="Digite seu nome aqui"><br>
+
+            <label for="e-mail">E-mail:</label>
+            <input type="email" name="e-mail" id="e-mail" class="inputs" placeholder="Digite seu e-mail aqui"><br>
+
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" name="dataNascimento" id="dataNascimento" class="inputs"><br>
+
+            <button id="cadastrar">Cadastrar</button>
+        </div>
+
+        <div class="infos">
+            <h1>Cadastro</h1>
+
+            <input type="reset" name="reset" id="reset" value="Limpar Cadastro" class="limparCadastro"></button>
+
+            <ul>
+                <li id="nomeFinal">Nome:</li>
+                <li id="e-mailFinal">E-mail:</li>
+                <li id="dataNascimentoFinal">Data Nascimento:</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
